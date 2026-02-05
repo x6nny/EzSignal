@@ -8,7 +8,7 @@
 * **Asynchronous:** Connections are fired using `task.spawn`, ensuring errors in one listener do not yield the thread or stop other listeners.
 * **Global Registry:** Store and retrieve signals globally by name without passing object references.
 * **Signal Linking:** Group multiple signals into a "Link" and fire them all with a single call.
-* **Functional Design:** Uses a wrapper-based approach (e.g., `EzSignal.Connect(sig, fn)`) rather than metatables.
+* **Functional Design:** Uses a wrapper-based approach (e.g., `EzSignal.Connect(sig, fn)`) rather than metatables, which ensures speed, as sending the signal class through the function is faster than using self.
 
 ## Installation
 

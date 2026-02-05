@@ -169,7 +169,6 @@ For Luau type checking:
 type signal = { 
     Connections : { (...any) -> () },
     Enabled : boolean,
-    link : string?
 }
 
 type link = {

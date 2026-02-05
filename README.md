@@ -1,7 +1,3 @@
-Here is a comprehensive, formatted `README.md` for your GitHub repository. I have structured it to highlight the unique features of your module (like the Storage registry and Signal Linking) and provided clear Luau examples.
-
----
-
 # EzSignal
 
 **EzSignal** is a lightweight, type-safe Signal implementation for Roblox development. It features a functional API design, a built-in global registry for storing signals, and a unique "Link" system that allows you to group and fire multiple signals simultaneously.
